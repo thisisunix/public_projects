@@ -1,0 +1,9 @@
+<launch>
+    <node name="points_generator" pkg="AR_week4_test" type="points_generator.py" />
+    <node name="traj_planner" pkg="AR_week4_test" type="cubic_traj_planner.py" />
+    <node name="traj_calculator" pkg="AR_week4_test" type="compute_cubic_coeffs.py" />
+    <node name="traj_plot" pkg="AR_week4_test" type="plot_cubic_traj.py" />
+
+    <node name="gui_plot" pkg="rqt_plot" type="rqt_plot"
+     args="AR_week4_traj_position AR_week4_traj_velocity AR_week4_traj_acceleration"/>
+</launch>
