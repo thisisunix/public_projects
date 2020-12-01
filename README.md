@@ -7,3 +7,7 @@ DLCV: source-code and final report for coursework entitled
       "Deeper Networks for Image Classification"
 
 AR:   ROS code for Advanced Robotic Systems module coursework
+
+Simple example ROS/Python project:
+
+northstar: continous orientation of robot to true north
