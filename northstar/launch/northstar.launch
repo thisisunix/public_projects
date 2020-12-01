@@ -1,0 +1,6 @@
+<launch>
+    <node name="turtle" pkg="turtlesim" type="turtlesim_node" />
+    <node name="drive_unit" pkg="northstar" type="drive_unit.py" />
+    <node name="orientation_service" pkg="northstar" type="orientation_service.py" />
+    <node name="director" pkg="northstar" type="director.py" />
+</launch>

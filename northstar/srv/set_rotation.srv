@@ -1,0 +1,5 @@
+# Set the rotation of the robot to an integer number of clockwise degrees per second
+# returns whether the state of the drive unit's rotation changed as a result
+int8 cw_deg_sec
+---
+bool return_code
